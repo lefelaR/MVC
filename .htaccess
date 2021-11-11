@@ -1,0 +1,15 @@
+Options -Indexes
+
+RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond  %{REQUEST_FILENAME} !\.(jpg|jpeg|png|gif|ico|icon)$ 
+
+#RewriteCond %{REQUEST_FILENAME} !-f 
+
+#RewriteCond %{DOCUMENT_ROOT}/$1 !\.(jpg|jpeg|png|gif|ico|icon|js)$
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !\.(?:jpe?g|gif|bmp|png|ico|tiff|css|js|webp|mp3|mp4)$ [NC]
+RewriteRule ^(.*)$ proxy.php [E=real_url:$1,L,QSA]
+
+#RewriteCond %{REQUEST_URI} !\.(?:[a-zA-Z0-9]{1,5})$ [NC]
