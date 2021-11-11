@@ -1,34 +1,6 @@
 
 <footer id="footer" class="footer-area">
-    <div class="footer-widget pt-130 pb-130">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="footer-content text-center">
-                        <a href="index.html">
-                            <img src="assets/images/logo.png" alt="Logo" style="width: 4em">
 
-                        </a>
-
-                        <ul>
-                        <li><a href="https://twitter.com/r_lefela" target="_blank">
-                                    <i class="lni lni-twitter-original"></i>
-                                        
-                                    </a></li>
-
-                                    <li><a href="https://github.com/" target="_blank">
-                                                <i class="lni lni-github-original"></i>
-                                                </a></li>
-
-                                    <li><a href="https://www.linkedin.com/feed/" target="_blank">
-                                    <i class="lni lni-linkedin-original"></i>
-                                    </a></li>
-                        </ul>
-                    </div> 
-                </div>
-            </div> 
-        </div> 
-    </div> 
 
     <div class="footer-copyright pb-20">
         <div class="container">

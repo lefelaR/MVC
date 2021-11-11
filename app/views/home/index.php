@@ -23,7 +23,9 @@
 </style>
 
 
-<?php
+<h1>views/home/index</h1>
 
+
+<?php
 include 'includes/cookie.php';
 ?>
