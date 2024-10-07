@@ -23,6 +23,14 @@ public Request $request;
     public function resolve()
     {
      $path = $this->request->getPath();
-      var_dump($path);
+     $method = $this->request->getMethod();
+     $callback = $this->routes[$method][$path] ?? false;
+     if(false === $callback)
+     {
+         echo 'not found';
+         die;
+     }
+     echo call_user_func($callback);
+      var_dump($path, $method, $callback);
     }
 }
