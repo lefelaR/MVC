@@ -1,0 +1,14 @@
+{
+    "name": "komodo/mvc",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "lefela"
+        }
+    ],
+    "require": {}
+}
